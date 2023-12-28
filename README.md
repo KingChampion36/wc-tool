@@ -39,7 +39,7 @@ wc -m test.txt
 ### Compile
 
 ```shell
-javac WordCount.java
+javac WC.java
 ```
 
 ### Run
@@ -47,59 +47,59 @@ javac WordCount.java
 #### 1. Size of a file
 
 ```shell
-java WordCount -c test.txt
+java WC -c test.txt
 ```
 
 #### 2. Number of lines in a file
 
 ```shell
-java WordCount -l test.txt
+java WC -l test.txt
 ```
 
 #### 3. Number of words in a file
 
 ```shell
-java WordCount -w test.txt
+java WC -w test.txt
 ```
 
 #### 4. Number of characters in a file
 
 ```shell
-java WordCount -m test.txt
+java WC -m test.txt
 ```
 
 #### 5. Default option
 
 ```shell
-java WordCount test.txt
+java WC test.txt
 ```
 
 #### 6. No file name is specified (Take user input in this case) and print size
 
 ```shell
-java WordCount -c
+java WC -c
 ```
 
 #### 7. No file name is specified (Take user input in this case) and print number of lines
 
 ```shell
-java WordCount -l
+java WC -l
 ```
 
 #### 8. No file name is specified (Take user input in this case) and print number of words
 
 ```shell
-java WordCount -w
+java WC -w
 ```
 
 #### 9. No file name is specified (Take user input in this case) and print number of characters
 
 ```shell
-java WordCount -m
+java WC -m
 ```
 
 #### 10. No file name is specified (Take user input in this case) and default behaviour
 
 ```shell
-java WordCount
+java WC
 ```
